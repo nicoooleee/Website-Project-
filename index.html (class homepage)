@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>BDDM</h1>
+  <div class="profiles">
+    <div class="profile" onclick="selectProfile('profile1')">
+      <img src="image 2.jpg" alt="Profile 1">
+      <div class="profile-name">Classmate</div>
+    </div>
+    <div class="profile" onclick="selectProfile('profile2')">
+      <img src="image 2.jpg" alt="Profile 2">
+      <div class="profile-name">Classmate</div>
+    </div>
+    <div class="profile" onclick="selectProfile('profile2')">
+      <img src="image 2.jpg" alt="Profile 2">
+      <div class="profile-name">Classmate</div>
+    </div>
+    <div class="profile" onclick="selectProfile('profile2')">
+      <img src="image 2.jpg" alt="Profile 2">
+      <div class="profile-name">Classmate</div>
+    </div>
+    <div class="profile" onclick="selectProfile('profile2')">
+      <img src="image 2.jpg" alt="Profile 2">
+      <div class="profile-name">Classmate</div>
+    </div>
+    <div class="profile" onclick="selectProfile('profile2')">
+      <img src="image 2.jpg" alt="Profile 2">
+      <div class="profile-name">Classmate</div>
+    </div>
+    <!-- Add more profiles as needed -->
+  </div>
+</div>
+
+<script>
+  function selectProfile(profileName) {
+    // You can perform actions when a profile is selected, like redirecting to another page
+    console.log('Selected profile:', profileName);
+    // For demonstration, let's just alert the selected profile
+    alert('Selected profile: ' + profileName);
+  }
+</script>
+
+</body>
+</html>
